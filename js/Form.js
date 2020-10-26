@@ -2,7 +2,7 @@ class Form {
 
   constructor() {
     this.input = createInput("Name");
-    this.image = createElement("img")
+   // this.image = createElement("img")
     this.button = createButton('Play');
     this.greeting = createElement('h2');
     this.title = createElement('h2');
@@ -16,7 +16,7 @@ class Form {
   }
 
   display(){
-   this.image.setAttribute("src", "background.jpg");
+  // this.image.setAttribute("src", "background.jpg");
     this.title.html("Car Racing Game");
     this.title.position(displayWidth/2 - 50, 0);
 
